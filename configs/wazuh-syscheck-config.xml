@@ -1,0 +1,8 @@
+<syscheck>
+  <frequency>36400</frequency>
+
+  <directories realtime="yes" check_all="yes">/etc,/home</directories>
+  
+  <ignore>/etc/mtab</ignore>
+  <ignore>/etc/hosts.deny</ignore>
+</syscheck>
